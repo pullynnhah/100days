@@ -3,7 +3,7 @@ ___
 
 ## days001-010
 ### `day001`: [Band Name Generator](https://github.com/pullynnhah/100days/blob/master/days001-010/day001/project/band_name_generator.py)
-### `day002`: []()
+### `day002`: [Tip Calculator](https://github.com/pullynnhah/100days/blob/master/days001-010/day002/project/tip_calculator.py)
 ### `day003`: []()
 ### `day004`: []()
 ### `day005`: []()
