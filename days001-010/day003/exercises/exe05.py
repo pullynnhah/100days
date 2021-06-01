@@ -14,7 +14,7 @@ true_love_score = true_score * 10 + love_score
 
 if true_love_score < 10 or true_love_score > 90:
     print(f"Your score is {true_love_score}, you go together like coke and mentos.")
-elif true_love_score > 40 and true_love_score < 50:
+elif true_love_score >= 40 and true_love_score <= 50:
     print(f"Your score is {true_love_score}, you are alright together.")
 else:
     print(f"Your score is {true_love_score}.")
