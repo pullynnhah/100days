@@ -27,6 +27,7 @@ while '_' in display and lives > 0:
                 if guess == letter:
                     display[idx] = letter
         else:
+            print(f"The letter '{guess.upper()}' is not in the chosen word. You lose a life!")
             lives -= 1
     guessed_letters.append(guess)
     print(art.stages[lives])
