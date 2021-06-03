@@ -13,7 +13,7 @@ guessed_letters = []
 print(art.logo)
 
 # Testing code
-print(f'Pssst, the solution is {chosen_word}.')
+# print(f'Pssst, the solution is {chosen_word}.')
 
 print(f"{' '.join(display)}")
 while '_' in display and lives > 0:
