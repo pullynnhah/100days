@@ -10,7 +10,7 @@ ___
 ### `day006`: [Reeborg Maze](https://github.com/pullynnhah/100days/blob/master/days001-010/day006/reeborg/project.ipynb)
 ### `day007`: [Hangman](https://github.com/pullynnhah/100days/blob/master/days001-010/day007/project)
 ### `day008`: [Caesar Cipher](https://github.com/pullynnhah/100days/blob/master/days001-010/day008/project)
-### `day009`: [💻](https://github.com/pullynnhah/100days/blob/master/days001-010/day009/project)
+### `day009`: [Secret Auction](https://github.com/pullynnhah/100days/blob/master/days001-010/day009/project)
 ### `day010`: [💻](https://github.com/pullynnhah/100days/blob/master/days001-010/day010/project)
 ___
 
