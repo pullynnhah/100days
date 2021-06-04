@@ -1,3 +1,5 @@
+import os
+
 import art
 
 
@@ -26,6 +28,7 @@ operations = {
 
 
 def calculator():
+    print(art.logo)
     num1 = float(input("What's the first number? "))
 
     print("  ".join(operations))
@@ -46,9 +49,8 @@ def calculator():
             f"Type 'c' to continue calculating with {answer} or type 'n' to start a new calculation: ").lower()
 
         if keep_calculating == 'n':
-            print()
+            os.system('cls' if os.name == 'nt' else 'clear')
             calculator()
 
 
-print(art.logo)
 calculator()
