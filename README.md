@@ -11,11 +11,11 @@ ___
 ### `day007`: [Hangman](https://github.com/pullynnhah/100days/blob/master/days001-010/day007/project)
 ### `day008`: [Caesar Cipher](https://github.com/pullynnhah/100days/blob/master/days001-010/day008/project)
 ### `day009`: [Secret Auction](https://github.com/pullynnhah/100days/blob/master/days001-010/day009/project)
-### `day010`: [💻](https://github.com/pullynnhah/100days/blob/master/days001-010/day010/project)
+### `day010`: [Calculator](https://github.com/pullynnhah/100days/blob/master/days001-010/day010/project)
 ___
 
 ## days011-020
-### `day011`: [💻](https://github.com/pullynnhah/100days/blob/master/days011-020/day011/project)
+### `day011`: [Blackjack](https://github.com/pullynnhah/100days/blob/master/days011-020/day011/capstone)
 ### `day012`: [💻](https://github.com/pullynnhah/100days/blob/master/days011-020/day012/project)
 ### `day013`: [💻](https://github.com/pullynnhah/100days/blob/master/days011-020/day013/project)
 ### `day014`: [💻](https://github.com/pullynnhah/100days/blob/master/days011-020/day014/project)
