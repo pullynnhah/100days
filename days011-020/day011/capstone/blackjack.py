@@ -51,7 +51,7 @@ def deal_start():
     return cards
 
 
-def deal_dealer():
+def deal_dealer(player_score):
     """Return all the cards for the dealer"""
     cards = deal_start()
     if get_score(cards) == 0:
