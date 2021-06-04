@@ -7,7 +7,7 @@ ___
 ### `day003`: [Treasure Island](https://github.com/pullynnhah/100days/blob/master/days001-010/day003/project)
 ### `day004`: [Rock Paper Scissors](https://github.com/pullynnhah/100days/blob/master/days001-010/day004/project)
 ### `day005`: [Password Generator](https://github.com/pullynnhah/100days/blob/master/days001-010/day005/project)
-### `day006`: [Reeborg Maze](https://github.com/pullynnhah/100days/blob/master/days001-010/day006/reeborg/project.ipynb)
+### `day006`: [Reeborg Maze](https://github.com/pullynnhah/100days/blob/master/days001-010/day006/reeborg/Project.ipynb)
 ### `day007`: [Hangman](https://github.com/pullynnhah/100days/blob/master/days001-010/day007/project)
 ### `day008`: [Caesar Cipher](https://github.com/pullynnhah/100days/blob/master/days001-010/day008/project)
 ### `day009`: [Secret Auction](https://github.com/pullynnhah/100days/blob/master/days001-010/day009/project)
