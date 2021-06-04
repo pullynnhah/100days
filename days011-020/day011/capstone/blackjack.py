@@ -54,8 +54,10 @@ def deal_start():
 def deal_dealer():
     """Return all the cards for the dealer"""
     cards = deal_start()
+    if get_score(cards) == 0:
+        return cards
 
-    while get_score(cards) != 0 and get_score(cards) < 17:
+    while get_score(cards) < 17:
         cards.append(deal())
 
     return cards
