@@ -16,14 +16,13 @@ def get_score(cards):
     All other list of cards are calculated with the
     sum of the cards, with the 11 being switched to
     1 if the score goes over 21"""
-    total = sum(cards)
-    if total == 21 and len(cards) == 2:
+
+    if sum(cards) == 21 and len(cards) == 2:
         return 0
-    if total > 21 and 11 in cards:
+    if sum(cards) > 21 and 11 in cards:
         cards.remove(11)
         cards.append(1)
-        return sum(cards)
-    return total
+    return sum(cards)
 
 
 def result(player_score, dealer_score):
@@ -73,7 +72,7 @@ def info(player_cards, player_score, dealer_first_card):
 def final_info(player_cards, player_score, dealer_cards, dealer_score):
     """Display info about the final setup of player and dealer hands"""
 
-    print(f"Your final hand: {player_cards}, final score: {player_score}")
+    print(f"\nYour final hand: {player_cards}, final score: {player_score}")
     print(f"Computer's final hand: {dealer_cards}, final score: {dealer_score}")
     print(result(player_score, dealer_score))
 
