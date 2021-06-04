@@ -32,7 +32,7 @@ def calculator():
 
     keep_calculating = 'c'
     while keep_calculating == 'c':
-        operation_symbol = input("Pick an operation: ")
+        operation_symbol = input("Pick an operation: ").strip()
 
         num2 = float(input("What's the next number? "))
 
