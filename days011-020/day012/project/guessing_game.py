@@ -36,7 +36,8 @@ def game():
     secret_number = random.randint(1, 100)
 
     # Test code
-    print(f'\nPssst, the correct answer is: {secret_number}\n')
+    # print(f'\nPssst, the correct answer is: {secret_number}\n')
+
     for lives in range(get_lives(), 0, -1):
         print(f"\nYou have {lives} attempts remaining to guess the number.")
         guess = int(input("Make a guess: "))
