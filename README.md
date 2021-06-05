@@ -17,7 +17,7 @@ ___
 ## days011-020
 ### `day011`: [Blackjack](https://github.com/pullynnhah/100days/blob/master/days011-020/day011/capstone)
 ### `day012`: [Guessing Game](https://github.com/pullynnhah/100days/blob/master/days011-020/day012/project)
-### `day013`: [💻](https://github.com/pullynnhah/100days/blob/master/days011-020/day013/project)
+### `day013`: No project today
 ### `day014`: [💻](https://github.com/pullynnhah/100days/blob/master/days011-020/day014/project)
 ### `day015`: [💻](https://github.com/pullynnhah/100days/blob/master/days011-020/day015/project)
 ### `day016`: [💻](https://github.com/pullynnhah/100days/blob/master/days011-020/day016/project)
