@@ -1,4 +1,6 @@
 def report():
+    """Display a report of the amount of each
+    resource and money in the coffee machine"""
     print(f'Water: {resources["water"]}ml')
     print(f'Milk: {resources["milk"]}ml')
     print(f'Coffee: {resources["coffee"]}g')
@@ -6,6 +8,9 @@ def report():
 
 
 def check_resources(drink):
+    """Check if the resources are sufficient to make the
+    drink. If they are not display a message saying so to
+    the user and returns False, otherwise, returns True."""
     resources_needed = drink['ingredients']
 
     for resource, amount in resources_needed.items():
@@ -16,6 +21,11 @@ def check_resources(drink):
 
 
 def process_payment(drink):
+    """Prompts the user for the number of each coin inserted calculating
+    the total value user inserts. Then compares this value with the actual
+    drink value. Display a message if the amount is not enough and returns
+    False, otherwise, returns True, displaying a message if the amount is
+    more than enough telling the user the change to be received."""
     price = drink['cost']
 
     print("Please insert coins.")
@@ -31,6 +41,8 @@ def process_payment(drink):
 
 
 def change_resources(drink):
+    """Change the global variables resources and money according with the
+    amount used of each ingredient and the money received from the user."""
     global resources, money
     resources_needed = drink['ingredients']
     price = drink['cost']
@@ -40,6 +52,8 @@ def change_resources(drink):
 
 
 def make_coffee(drink_name):
+    """Checks if the resources and payment are sufficient, if they
+    are display a message to the user and changes the resources"""
     drink = MENU[drink_name]
     if check_resources(drink) and process_payment(drink):
         print(f"Here is your {drink_name} ☕️. Enjoy!")
@@ -47,6 +61,8 @@ def make_coffee(drink_name):
 
 
 def coffee_machine():
+    """Prompts the user for a drink name if the user types 'off'
+    returns otherwise the function is recalled recursively"""
     user_choice = input("What would you like? (espresso/latte/cappuccino): ").lower()
     if user_choice == 'off':
         return
