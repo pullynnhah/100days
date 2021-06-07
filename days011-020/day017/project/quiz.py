@@ -1,11 +1,16 @@
-from data import question_data
+from data import question_data, question_data_api
 from quiz_brain import QuizBrain
 from question_model import Question
 
 question_bank = []
 
-for question in question_data:
-    question_bank.append(Question(question['text'], question['answer']))
+choice = input("Do you wish to get data from API? ").lower()
+if choice == 'yes':
+    for question in question_data_api:
+        question_bank.append(Question(question['question'], question['correct_answer']))
+else:
+    for question in question_data:
+        question_bank.append(Question(question['text'], question['answer']))
 
 quiz = QuizBrain(question_bank)
 
