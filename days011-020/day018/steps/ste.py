@@ -1,6 +1,6 @@
 import colorgram
 
-original_colors = colorgram.extract('color_palette.png', 10)
+original_colors = colorgram.extract('color_palette.png', 8)
 
 colors = []
 for original_color in original_colors:
