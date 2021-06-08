@@ -24,7 +24,7 @@ screen.onkey(left_paddle.up, 'w')
 screen.onkey(left_paddle.down, 's')
 
 while not scoreboard.is_game_over():
-    sleep(0.1)
+    sleep(ball.move_speed)
     screen.update()
     ball.move()
 

@@ -30,6 +30,7 @@ class Ball(Turtle):
         super().__init__('circle')
         self.color('white')
         self.pu()
+        self.move_speed = 0.1
         self.move_x = None
         self.move_y = None
         self.set_ball()
@@ -42,6 +43,7 @@ class Ball(Turtle):
 
     def bounce_paddle(self):
         self.move_x *= -1
+        self.move_speed *= 0.9
 
     def set_ball(self):
         heading_dict = choice(HEADINGS)
@@ -52,3 +54,4 @@ class Ball(Turtle):
     def reset_position(self):
         self.home()
         self.set_ball()
+        self.move_speed = 0.1
