@@ -30,10 +30,9 @@ class Ball(Turtle):
         super().__init__('circle')
         self.color('white')
         self.pu()
-        heading_dict = choice(HEADINGS)
-        self.seth(heading_dict['angle'])
-        self.move_x = heading_dict['move_x']
-        self.move_y = heading_dict['move_y']
+        self.move_x = None
+        self.move_y = None
+        self.set_ball()
 
     def move(self):
         self.goto(self.xcor() + self.move_x, self.ycor() + self.move_y)
@@ -43,3 +42,13 @@ class Ball(Turtle):
 
     def bounce_paddle(self):
         self.move_x *= -1
+
+    def set_ball(self):
+        heading_dict = choice(HEADINGS)
+        self.seth(heading_dict['angle'])
+        self.move_x = heading_dict['move_x']
+        self.move_y = heading_dict['move_y']
+
+    def reset_position(self):
+        self.home()
+        self.set_ball()
