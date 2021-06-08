@@ -21,4 +21,3 @@ class Paddle(Turtle):
         y = self.ycor() - 20
         if y > -280:
             self.goto(x, y)
-
