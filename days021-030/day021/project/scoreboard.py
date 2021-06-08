@@ -12,13 +12,13 @@ class Scoreboard(Turtle):
         self.pu()
         self.color('white')
         self.goto(0, 270)
-        self.display_score()
+        self.update_scoreboard()
 
-    def display_score(self):
+    def update_scoreboard(self):
         text = f'Score: {self.score}'
         self.write(text, font=FONT_SCORE, align=ALIGNMENT)
 
     def increase_score(self):
         self.score += 1
         self.clear()
-        self.display_score()
+        self.update_scoreboard()
