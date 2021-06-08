@@ -31,6 +31,7 @@ while not game_over:
     if player.at_finish_line():
         player.set_player()
         scoreboard.level_up()
+        car_manager.level_up()
 
 player.game_over()
 car_manager.game_over()

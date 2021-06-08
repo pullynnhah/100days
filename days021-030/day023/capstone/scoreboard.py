@@ -5,6 +5,7 @@ GAME_OVER_FONT = ('Atari Classic Chunky', 36, 'normal')
 
 POSITION = (-220, 270)
 
+
 class Scoreboard(Turtle):
     def __init__(self):
         super().__init__(visible=False)
@@ -23,5 +24,3 @@ class Scoreboard(Turtle):
         self.write("GAME OVER", align='center', font=GAME_OVER_FONT)
         self.goto(0, -50)
         self.write(f"Final level: {self.level}", align='center', font=FONT)
-
-

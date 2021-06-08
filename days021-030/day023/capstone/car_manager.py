@@ -5,6 +5,7 @@ COLORS = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
 STARTING_MOVE_DISTANCE = 5
 MOVE_INCREMENT = 10
 
+
 class Car(Turtle):
     def __init__(self):
         super().__init__('square')
@@ -14,7 +15,8 @@ class Car(Turtle):
         self.goto(300, randint(-250, 250))
 
     def is_collision(self, player):
-        return self.distance(player) < 20
+        return self.distance(player) < 15
+
 
 class CarManager:
     def __init__(self):
