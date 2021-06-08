@@ -28,7 +28,7 @@ ___
 ___
 
 ## days021-030
-### `day021`: [💻](https://github.com/pullynnhah/100days/blob/master/days021-030/day021/project)
+### `day021`: [Snake Game](https://github.com/pullynnhah/100days/blob/master/days021-030/day021/project)
 ### `day022`: [💻](https://github.com/pullynnhah/100days/blob/master/days021-030/day022/project)
 ### `day023`: [💻](https://github.com/pullynnhah/100days/blob/master/days021-030/day023/project)
 ### `day024`: [💻](https://github.com/pullynnhah/100days/blob/master/days021-030/day024/project)
