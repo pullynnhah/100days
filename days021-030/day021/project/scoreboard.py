@@ -5,6 +5,7 @@ FONT_SCORE = ('Atari Classic Chunky', 20, 'normal')
 FONT_GAME_OVER = ('Atari Classic Chunky', 36, 'normal')
 FONT_GAME_OVER_SCORE = ('Atari Classic Chunky', 16, 'normal')
 
+
 class Scoreboard(Turtle):
     def __init__(self):
         super().__init__(visible=False)
