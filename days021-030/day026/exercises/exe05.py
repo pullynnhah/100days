@@ -11,7 +11,6 @@ weather_c = {
 
 # 🚨 Don't change code above 👆
 
-
 # Write your code below 👇
 def to_fahrenheit(temp):
     return round(temp * 1.8 + 32, 1)
