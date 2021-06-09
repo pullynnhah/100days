@@ -31,7 +31,7 @@ ___
 ### `day021`: [Snake Game](https://github.com/pullynnhah/100days/blob/master/days021-030/day021/project)
 ### `day022`: [Pong](https://github.com/pullynnhah/100days/blob/master/days021-030/day022/project)
 ### `day023`: [Crossing Game](https://github.com/pullynnhah/100days/blob/master/days021-030/day023/capstone)
-### `day024`: [💻](https://github.com/pullynnhah/100days/blob/master/days021-030/day024/project)
+### `day024`: [Mail Merge](https://github.com/pullynnhah/100days/blob/master/days021-030/day024/project)
 ### `day025`: [💻](https://github.com/pullynnhah/100days/blob/master/days021-030/day025/project)
 ### `day026`: [💻](https://github.com/pullynnhah/100days/blob/master/days021-030/day026/project)
 ### `day027`: [💻](https://github.com/pullynnhah/100days/blob/master/days021-030/day027/project)
