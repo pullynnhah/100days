@@ -1,6 +1,6 @@
 from tkinter import *
 
-FONT = ("Manjari", 15)
+FONT = ("Make Wonderful Moments Script", 30)
 
 
 def to_km(num_miles):
@@ -15,7 +15,7 @@ def display_km():
 window = Tk()
 
 window.title("️⛽️ Mile to Km Converter ⛽️")
-window.minsize(width=250, height=75)
+window.minsize(width=400, height=150)
 
 miles_text = Label(text='Miles', font=FONT)
 km_text = Label(text='km', font=FONT)
