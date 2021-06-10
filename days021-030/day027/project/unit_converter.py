@@ -15,7 +15,7 @@ def display_km():
 window = Tk()
 
 window.title("️⛽️ Mile to Km Converter ⛽️")
-window.minsize(width=400, height=150)
+window.config(padx=20, pady=20)
 
 miles_text = Label(text='Miles', font=FONT)
 km_text = Label(text='km', font=FONT)
