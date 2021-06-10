@@ -33,4 +33,5 @@ result_text.grid(column=0, row=1)
 km_label.grid(column=1, row=1)
 button.grid(column=1, row=2)
 entry.grid(column=1, row=0)
+
 window.mainloop()
