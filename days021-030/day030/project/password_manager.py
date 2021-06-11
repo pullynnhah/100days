@@ -67,7 +67,7 @@ def save():
         messagebox.showerror(title="🚨 Empty field 🚨", message="You left some field(s) empty. Please try again!")
 
 
-# -------------------------------------------------- SEARCH PASSWORD ------------------------------------------------- #
+# -------------------------------------------------- FIND PASSWORD --------------------------------------------------- #
 def find_password():
     website = website_entry.get()
     if len(website) == 0:
