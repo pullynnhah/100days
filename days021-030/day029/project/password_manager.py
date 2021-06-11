@@ -40,7 +40,7 @@ def save():
         message = f'This are the details entered:\nEmail/Username: {user}\nPassword: {password}\nIs it ok to save? '
         is_ok = messagebox.askokcancel(title=website, message=message)
         if is_ok:
-            with open('data.csv', 'a') as file:
+            with open('data.txt', 'a') as file:
                 print(log, file=file)
             website_entry.delete(0, END)
             password_entry.delete(0, END)
