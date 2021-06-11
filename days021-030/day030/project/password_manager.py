@@ -67,7 +67,7 @@ def save():
         messagebox.showerror(title="🚨 Empty field 🚨", message="You left some field(s) empty. Please try again!")
 
 
-# --------------------------------------------------- SEARCH PASSWORD -------------------------------------------------- #
+# -------------------------------------------------- SEARCH PASSWORD ------------------------------------------------- #
 def find_password():
     website = website_entry.get()
     if len(website) == 0:
@@ -90,7 +90,6 @@ def find_password():
                 user = f'Email/Username: {info["email/username"]}'
                 password = f'Password: {info["password"]}'
                 messagebox.showinfo(title=web, message=f'{user}\n{password}')
-
 
 
 # ------------------------------------------------------ UI SETUP ---------------------------------------------------- #
