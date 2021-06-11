@@ -37,7 +37,7 @@ ___
 ### `day027`: [Miles to Km Converter](https://github.com/pullynnhah/100days/blob/master/days021-030/day027/project)
 ### `day028`: [Pomodoro](https://github.com/pullynnhah/100days/blob/master/days021-030/day028/project)
 ### `day029`: [Password Manager](https://github.com/pullynnhah/100days/blob/master/days021-030/day029/project)
-### `day030`: [💻](https://github.com/pullynnhah/100days/blob/master/days021-030/day030/project)
+### `day030`: [Advanced Password Manager](https://github.com/pullynnhah/100days/blob/master/days021-030/day030/project)
 ___
 
 ## days031-040
