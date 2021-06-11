@@ -2,5 +2,9 @@
     "Paula": {
         "favorite color": "Violet",
         "favorite number": 7
+    },
+    "Jon": {
+        "favorite color": "Orange",
+        "favorite number": 10
     }
 }
