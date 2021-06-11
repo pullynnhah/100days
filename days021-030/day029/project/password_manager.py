@@ -1,5 +1,4 @@
 # ------------------------------------------------------ IMPORTS ----------------------------------------------------- #
-from os import path
 from tkinter import *
 from tkinter import messagebox
 from random import choice, shuffle, randint
@@ -28,7 +27,7 @@ def gen_password():
     shuffle(password)
     final_password = ''.join(password)
     copy(final_password)
-    password_entry.insert(END, final_password)
+    password_entry.insert(0, final_password)
 
 
 # --------------------------------------------------- SAVE PASSWORD -------------------------------------------------- #
@@ -38,13 +37,10 @@ def save():
     password = password_entry.get()
     if len(website) != 0 and len(user) and len(password) != 0:
         log = ' | '.join((website, user, password))
-        write_header = not path.exists('data.csv')
         message = f'This are the details entered:\nEmail/Username: {user}\nPassword: {password}\nIs it ok to save? '
         is_ok = messagebox.askokcancel(title=website, message=message)
         if is_ok:
             with open('data.csv', 'a') as file:
-                if write_header:
-                    print('website | username | password', file=file)
                 print(log, file=file)
             website_entry.delete(0, END)
             password_entry.delete(0, END)

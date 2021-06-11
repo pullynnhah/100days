@@ -1,4 +1,3 @@
-website | username | password
 Secret | paula@email.com | sec123
 Amazon | paula@email.com | prime
 Facebook | paula@email.com | 56Zj*a#hJEcF2j(*1
