@@ -21,10 +21,13 @@ response.raise_for_status()
 data = response.json()
 print(data)
 
+sunrise = data['results']['sunrise']
+sunset = data['results']['sunset']
+print(sunrise, sunset)
+
 sunrise = hour_time(data['results']['sunrise'])
 sunset = hour_time(data['results']['sunset'])
-
+print(sunrise, sunset)
 
 now = datetime.now()
 
-print(sunrise, sunset)
