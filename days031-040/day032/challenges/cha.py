@@ -15,6 +15,7 @@ def day_of_week():
     now = dt.datetime.now()
     return weekdays[now.weekday()]
 
+
 def send_email(message):
     from_email = os.getenv('EMAIL')
     to_email = os.getenv('OTHER_EMAIL')
