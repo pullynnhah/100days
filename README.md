@@ -42,7 +42,7 @@ ___
 
 ## days031-040
 ### `day031`: [Flashcard](https://github.com/pullynnhah/100days/blob/master/days031-040/day031/capstone)
-### `day032`: [💻](https://github.com/pullynnhah/100days/blob/master/days031-040/day032/project)
+### `day032`: [Birthday Wisher](https://github.com/pullynnhah/100days/blob/master/days031-040/day032/project)
 ### `day033`: [💻](https://github.com/pullynnhah/100days/blob/master/days031-040/day033/project)
 ### `day034`: [💻](https://github.com/pullynnhah/100days/blob/master/days031-040/day034/project)
 ### `day035`: [💻](https://github.com/pullynnhah/100days/blob/master/days031-040/day035/project)
