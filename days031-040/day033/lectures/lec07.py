@@ -3,7 +3,7 @@ from datetime import datetime
 import requests
 
 
-def hour_time(time):
+def get_hour(time):
     return int(time.split("T")[1].split(":")[0])
 
 
@@ -25,8 +25,8 @@ sunrise = data['results']['sunrise']
 sunset = data['results']['sunset']
 print(sunrise, sunset)
 
-sunrise = hour_time(data['results']['sunrise'])
-sunset = hour_time(data['results']['sunset'])
+sunrise = get_hour(data['results']['sunrise'])
+sunset = get_hour(data['results']['sunset'])
 print(sunrise, sunset)
 
 now = datetime.now()
