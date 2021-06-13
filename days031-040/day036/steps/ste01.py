@@ -47,5 +47,5 @@ yesterday_value = get_value(response, yesterday)
 before_yesterday_value = get_value(response, before_yesterday)
 percentage = get_percentage(yesterday_value, before_yesterday_value)
 
-if -5 <= percentage <= 5:
+if not (-5 <= percentage <= 5):
     print("Get News")
