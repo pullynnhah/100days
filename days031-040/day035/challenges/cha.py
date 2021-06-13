@@ -9,7 +9,6 @@ def bring_umbrella(data):
     return False
 
 
-
 LATITUDE = 23.810651
 LONGITUDE = 90.4126466
 
