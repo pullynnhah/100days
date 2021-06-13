@@ -27,7 +27,6 @@ def get_percentage(value, previous_value):
 
 
 STOCK = "TSLA"
-COMPANY_NAME = "Tesla Inc"
 
 params = {
     'function': 'TIME_SERIES_DAILY',
