@@ -46,7 +46,7 @@ ___
 ### `day033`: [ISS Notifier](https://github.com/pullynnhah/100days/blob/master/days031-040/day033/project)
 ### `day034`: [Quizzler](https://github.com/pullynnhah/100days/blob/master/days031-040/day034/project)
 ### `day035`: [Rain Alert](https://github.com/pullynnhah/100days/blob/master/days031-040/day035/project)
-### `day036`: [💻](https://github.com/pullynnhah/100days/blob/master/days031-040/day036/project)
+### `day036`: [Stock Alert](https://github.com/pullynnhah/100days/blob/master/days031-040/day036/project)
 ### `day037`: [💻](https://github.com/pullynnhah/100days/blob/master/days031-040/day037/project)
 ### `day038`: [💻](https://github.com/pullynnhah/100days/blob/master/days031-040/day038/project)
 ### `day039`: [💻](https://github.com/pullynnhah/100days/blob/master/days031-040/day039/project)
