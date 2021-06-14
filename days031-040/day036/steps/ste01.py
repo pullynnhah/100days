@@ -1,10 +1,6 @@
 import os
 import requests
 
-
-def format_date(date):
-    return date.strftime('%Y-%m-%d')
-
 STOCK = "TSLA"
 
 params = {
