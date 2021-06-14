@@ -14,7 +14,7 @@ pixel_endpoint = f'{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}'
 day = datetime(year=2021, day=12, month=6)
 pixel_config = {
     'date': day.strftime("%Y%m%d"),
-    'quantity': '0'
+    'quantity': '30'
 }
 
 response = requests.post(url=pixel_endpoint, json=pixel_config, headers={"X-USER-TOKEN": TOKEN})
