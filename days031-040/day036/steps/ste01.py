@@ -17,5 +17,5 @@ before_yesterday_value = float(data[1]['4. close'])
 
 percentage = (yesterday_value - before_yesterday_value) * 100 / yesterday_value
 
-if not (-5 <= percentage <= 5):
+if not (-0.01 <= percentage <= 0.01):
     print("Get News")
