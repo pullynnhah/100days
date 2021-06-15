@@ -50,7 +50,7 @@ ___
 ### `day037`: [Pixela Reading Tracker](https://github.com/pullynnhah/100days/blob/master/days031-040/day037/project)
 - Is not exactly a project.
 ### `day038`: [Workout Tracker](https://github.com/pullynnhah/100days/blob/master/days031-040/day038/project)
-### `day039`: [💻](https://github.com/pullynnhah/100days/blob/master/days031-040/day039/project)
+### `day039`: [Cheap Flight Finder for One](https://github.com/pullynnhah/100days/blob/master/days031-040/day039/project)
 ### `day040`: [💻](https://github.com/pullynnhah/100days/blob/master/days031-040/day040/project)
 ___
 
