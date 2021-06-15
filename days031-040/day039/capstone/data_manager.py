@@ -22,6 +22,7 @@ class DataManager:
         del headers['Content-Type']
         self.sheet_data = self.get(url, headers=headers)
 
+
 if __name__ == '__main__':
     import os
 
