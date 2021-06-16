@@ -34,3 +34,9 @@ h1 {
     text-align: center;
 
 }
+
+/*PSEUDO-CLASS Selectors*/
+
+img:hover {
+    background-color: gold;
+}
