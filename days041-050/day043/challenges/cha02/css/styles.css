@@ -1,0 +1,23 @@
+body {
+    background-color: plum;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: white;
+    width: 10%;
+}
+
+img {
+    height: 200px;
+}
+
+h1 {
+    color: purple;
+}
+
+h3 {
+    color: purple;
+}
