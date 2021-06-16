@@ -56,7 +56,7 @@ ___
 ___
 
 ## days041-050
-### `day041`: [💻](https://github.com/pullynnhah/100days/blob/master/days041-050/day041/project)
+### `day041`: [Basic Personal Website](https://github.com/pullynnhah/100days/blob/master/days041-050/day041/project)
 ### `day042`: [💻](https://github.com/pullynnhah/100days/blob/master/days041-050/day042/project)
 ### `day043`: [💻](https://github.com/pullynnhah/100days/blob/master/days041-050/day043/project)
 ### `day044`: [💻](https://github.com/pullynnhah/100days/blob/master/days041-050/day044/project)
