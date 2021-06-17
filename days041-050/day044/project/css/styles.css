@@ -3,9 +3,13 @@ body {
 }
 
 div {
-    background-color: #FBC6A4;
+    background-color: #95E1D3;
 }
 
 h1 {
     margin: 0px;
+}
+
+.pro {
+    text-decoration: underline;
 }

@@ -1,0 +1,11 @@
+p {
+    background-color: red;
+    display: inline-block;
+    width: 100px;
+}
+
+span {
+    background-color: blue;
+    display: inline-block;
+    width: 100px;
+}
