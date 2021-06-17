@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-# Use url/robots.txt to see what you can and cannot scrape
+# Use root_url/robots.txt to see what you can and cannot scrape
 response = requests.get('https://news.ycombinator.com/')
 
 soup = BeautifulSoup(response.text, 'html.parser')
