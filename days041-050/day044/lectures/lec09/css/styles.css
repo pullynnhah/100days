@@ -75,7 +75,9 @@ a {
     width: 50%;
 }
 
-.code-skill-description {
+.cpp-skill-description {
     clear: left;
 }
-
+.python-skill-description {
+    clear: right;
+}
