@@ -73,5 +73,9 @@ a {
     margin: 100px auto;
     text-align: left;
     width: 50%;
-
 }
+
+.code-skill-description {
+    clear: left;
+}
+
