@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+div {
+    background-color: #95E1D3;
+}
+
+h1 {
+    /*margin: 0 auto 0 auto;*/
+    margin: 0 auto;
+    width: 10%;
+}
+
+.pro {
+    text-decoration: underline;
+}

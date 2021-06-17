@@ -1,15 +1,30 @@
 body {
-    margin: 0px;
+    margin: 0;
+    text-align: center;
 }
 
 div {
     background-color: #95E1D3;
+    padding-top: 100px;
 }
 
 h1 {
-    margin: 0px;
+    margin: 0;
 }
 
 .pro {
     text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
 }
