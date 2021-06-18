@@ -9,4 +9,4 @@ driver.get('https://amazon.com')
 time.sleep(5)
 
 driver.close()  # single tab
-    driver.quit()  # how browser
+driver.quit()  # hole browser
