@@ -49,7 +49,7 @@ for job in jobs:
         driver.find_elements_by_class_name("artdeco-modal__confirm-dialog-btn")[1].click()
         print("To complex!")
     else:
-        button.clElementClickInterceptedException on Linkedin Projectick()
+        button.click()
         time.sleep(2)
         driver.find_element_by_class_name("artdeco-modal__dismiss").click()
         print("Applied!")
