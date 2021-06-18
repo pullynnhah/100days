@@ -1,0 +1,11 @@
+beautifulsoup4
+colorgram.py
+heroes
+lxml 
+pandas
+prettytable
+pyperclip
+requests
+selenium
+spotipy 
+twilio 
