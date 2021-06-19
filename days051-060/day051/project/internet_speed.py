@@ -52,3 +52,5 @@ class InternetSpeedTwitterBot:
 
         self.driver.find_element_by_xpath(tweet_xpath).click()
 
+    def __del__(self):
+        self.driver.quit()

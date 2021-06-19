@@ -12,3 +12,4 @@ bot = InternetSpeedTwitterBot(chromedriver_path)
 
 bot.get_internet_speed()
 bot.tweet_at_provider(PROMISED_DOWN, PROMISED_UP, TWITTER_USERNAME, TWITTER_PASSWORD)
+del bot
