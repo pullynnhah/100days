@@ -54,6 +54,4 @@ for job in jobs:
         driver.find_element_by_class_name("artdeco-modal__dismiss").click()
         print("Applied!")
 
-time.sleep(10)
-
 driver.quit()
