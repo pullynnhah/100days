@@ -64,9 +64,9 @@ ___
 ### `day045`: [Top 100 Movies](https://github.com/pullynnhah/100days/blob/master/days041-050/day045/project)
 ### `day046`: [Spotify Time Machine](https://github.com/pullynnhah/100days/blob/master/days041-050/day046/project)
 ### `day047`: [Amazon Price Tracker](https://github.com/pullynnhah/100days/blob/master/days041-050/day047/project)
-### `day048`: [💻](https://github.com/pullynnhah/100days/blob/master/days041-050/day048/project)
-### `day049`: [💻](https://github.com/pullynnhah/100days/blob/master/days041-050/day049/project)
-### `day050`: [💻](https://github.com/pullynnhah/100days/blob/master/days041-050/day050/project)
+### `day048`: [Cookie CLicker](https://github.com/pullynnhah/100days/blob/master/days041-050/day048/project)
+### `day049`: [Linkedin Job Application](https://github.com/pullynnhah/100days/blob/master/days041-050/day049/project)
+### `day050`: [Tinder Bot](https://github.com/pullynnhah/100days/blob/master/days041-050/day050/project)
 ___
 
 ## days051-060
