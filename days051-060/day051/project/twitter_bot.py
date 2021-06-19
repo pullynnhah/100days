@@ -1,6 +1,7 @@
 import os
 
 from internet_speed import InternetSpeedTwitterBot
+
 PROMISED_DOWN = 400
 PROMISED_UP = 100
 TWITTER_USERNAME = os.getenv('TWITTER_USER')

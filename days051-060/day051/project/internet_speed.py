@@ -10,7 +10,6 @@ class InternetSpeedTwitterBot:
         self.down = 0
         self.driver = webdriver.Chrome(executable_path=chromedriver_path)
 
-
     def get_internet_speed(self):
         self.driver.get('https://www.speedtest.net')
         go_button = self.driver.find_element_by_class_name('start-text')
@@ -29,7 +28,7 @@ class InternetSpeedTwitterBot:
                 self.up = 0
             time.sleep(5)
 
-    def tweet_at_provider(self,promised_download, promised_upload, username, password):
+    def tweet_at_provider(self, promised_download, promised_upload, username, password):
         self.driver.get('https://twitter.com/login')
         time.sleep(5)
         self.driver.find_element_by_name('session[username_or_email]').send_keys(username)
