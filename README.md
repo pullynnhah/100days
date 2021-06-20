@@ -73,7 +73,7 @@ ___
 ### `day051`: [Complaining Twitter Bot](https://github.com/pullynnhah/100days/blob/master/days051-060/day051/project)
 ### `day052`: [Instagram Follower Bot](https://github.com/pullynnhah/100days/blob/master/days051-060/day052/project)
 ### `day053`: [SF Renting Research](https://github.com/pullynnhah/100days/blob/master/days051-060/day053/capstone)
-### `day054`: [💻](https://github.com/pullynnhah/100days/blob/master/days051-060/day054/project)
+### `day054`: No project today
 ### `day055`: [💻](https://github.com/pullynnhah/100days/blob/master/days051-060/day055/project)
 ### `day056`: [💻](https://github.com/pullynnhah/100days/blob/master/days051-060/day056/project)
 ### `day057`: [💻](https://github.com/pullynnhah/100days/blob/master/days051-060/day057/project)
