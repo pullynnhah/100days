@@ -51,4 +51,3 @@ print(result)
 outer_function1()
 inner_function = outer_function2()
 inner_function()
-
