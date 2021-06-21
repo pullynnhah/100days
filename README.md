@@ -75,7 +75,7 @@ ___
 ### `day053`: [SF Renting Research](https://github.com/pullynnhah/100days/blob/master/days051-060/day053/capstone)
 ### `day054`: No project today
 ### `day055`: [Guess Number Game using URLs](https://github.com/pullynnhah/100days/blob/master/days051-060/day055/project)
-### `day056`: [💻](https://github.com/pullynnhah/100days/blob/master/days051-060/day056/project)
+### `day056`: [Name Card](https://github.com/pullynnhah/100days/blob/master/days051-060/day056/project)
 ### `day057`: [💻](https://github.com/pullynnhah/100days/blob/master/days051-060/day057/project)
 ### `day058`: [💻](https://github.com/pullynnhah/100days/blob/master/days051-060/day058/project)
 ### `day059`: [💻](https://github.com/pullynnhah/100days/blob/master/days051-060/day059/project)
