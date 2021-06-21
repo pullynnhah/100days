@@ -7,7 +7,7 @@ def gen_wrong_params():
     print('python gen.py')
     print('Please try running to generate all files for each day:')
     print('python gen.py scope day folder1 extension1 quantity1 ... folderN extensionN quantityN')
-    print('\nExample: python gen.py 1 1 exercises exe 4 lectures lec 5 project band_name_generator 0')
+    print('\nExample: python gen.py 1 1 exercises exe 4 lectures lec 5 steps band_name_generator 0')
     print('Creates the following structure:')
     print('days001-010')
     print('|_ day001')
