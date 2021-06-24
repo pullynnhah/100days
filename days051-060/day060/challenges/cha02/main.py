@@ -16,24 +16,22 @@ def about():
     return render_template('about.html')
 
 
-@app.route('/contact')
+@app.route('/contact', methods=['GET', 'POST'])
 def contact():
-    return render_template('contact.html')
-
-
-@app.route('/post/<int:index>')
-def post(index):
-    return render_template('post.html', post=posts[index])
-
-
-@app.route('/form-entry', methods=['POST'])
-def form_entry():
+    if request.method == 'GET':
+        return render_template('contact.html')
     name = request.form['name']
     email = request.form['email']
     phone = request.form['phone']
     message = request.form['message']
     print(f'Name: {name}\nEmail: {email}\nPhone: {phone}\nMessage: {message}')
     return '<h1>Successfully sent your message</h1>'
+
+
+@app.route('/post/<int:index>')
+def post(index):
+    return render_template('post.html', post=posts[index])
+
 
 
 if __name__ == '__main__':
