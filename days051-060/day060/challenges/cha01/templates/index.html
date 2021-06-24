@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Challenge 1</title>
+</head>
+<body>
+<h1>Anything</h1>
+<hr>
+<form action="{{ url_for('login') }}" method="post">
+    <label>Name</label>
+    <input type="text" placeholder="name" name="name">
+    <label>Password</label>
+    <input type="password" placeholder="password" name="password">
+    <button type="submit">Ok</button>
+</form>
+</body>
+</html>
