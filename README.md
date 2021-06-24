@@ -76,7 +76,7 @@ ___
 ### `day054`: No project today
 ### `day055`: [Guess Number Game using URLs](https://github.com/pullynnhah/100days/blob/master/days051-060/day055/project)
 ### `day056`: [Name Card](https://github.com/pullynnhah/100days/blob/master/days051-060/day056/project)
-### `day057`: No project today
+### `day057`: [Blog Version 1](https://github.com/pullynnhah/100days/blob/master/days051-060/day057/project)
 ### `day058`: [Tindog](https://github.com/pullynnhah/100days/blob/master/days051-060/day058/project)
 ### `day059`: [💻](https://github.com/pullynnhah/100days/blob/master/days051-060/day059/project)
 ### `day060`: [💻](https://github.com/pullynnhah/100days/blob/master/days051-060/day060/project)
