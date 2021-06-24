@@ -78,8 +78,8 @@ ___
 ### `day056`: [Name Card](https://github.com/pullynnhah/100days/blob/master/days051-060/day056/project)
 ### `day057`: [Blog](https://github.com/pullynnhah/100days/blob/master/days051-060/day057/project)
 ### `day058`: [Tindog](https://github.com/pullynnhah/100days/blob/master/days051-060/day058/project)
-### `day059`: [💻](https://github.com/pullynnhah/100days/blob/master/days051-060/day059/project)
-### `day060`: [💻](https://github.com/pullynnhah/100days/blob/master/days051-060/day060/project)
+### `day059`: [Incomplete Advanced Blog](https://github.com/pullynnhah/100days/blob/master/days051-060/day059/project)
+### `day060`: [Advanced Blog](https://github.com/pullynnhah/100days/blob/master/days051-060/day060/project)
 ___
 
 ## days061-070
