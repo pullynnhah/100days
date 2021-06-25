@@ -14,8 +14,4 @@ Flask~=2.0.1
 flask-wtf
 
 WTForms~=2.3.3
-email_validator
-click
-dominate
-itsdangerous
-MarkupSafe
+
