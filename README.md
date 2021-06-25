@@ -83,7 +83,7 @@ ___
 ___
 
 ## days061-070
-### `day061`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day061/project)
+### `day061`: [Secret Site](https://github.com/pullynnhah/100days/blob/master/days061-070/day061/project)
 ### `day062`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day062/project)
 ### `day063`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day063/project)
 ### `day064`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day064/project)
