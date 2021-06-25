@@ -6,12 +6,16 @@
 </head>
 <body>
 <h1>My Library</h1>
-{% if book == []: %}
+{% if books == []: %}
     <p>Library is empty.</p>
 {% else: %}
 <ul>
     {% for book in books: %}
-    <li>{{ book }}</li>
+    <li>
+        <a href="{{ url_for('delete', id=loop.index) }}">Delete </a>
+        {{ book.title }} - {{ book.author }} - {{ book.rating }}/10
+        <a href="{{ url_for('edit', id=loop.index) }}"> Edit Rating</a>
+    </li>
     {% endfor %}
 </ul>
 {% endif %}

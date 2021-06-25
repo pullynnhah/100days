@@ -9,7 +9,7 @@ CREATE TABLE books (
     title varchar(250) NOT NULL UNIQUE,
     author varchar(250) NOT NULL,
     rating FLOAT NOT NULL
-)""")
+);""")
 
 cursor.execute("INSERT INTO books VALUES(1, 'Harry Potter', 'J. K. Rowling', '9.3')")
 db.commit()
