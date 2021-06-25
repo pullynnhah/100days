@@ -76,16 +76,16 @@ ___
 ### `day054`: No project today
 ### `day055`: [Guess Number Game using URLs](https://github.com/pullynnhah/100days/blob/master/days051-060/day055/project)
 ### `day056`: [Name Card](https://github.com/pullynnhah/100days/blob/master/days051-060/day056/project)
-### `day057`: [Blog](https://github.com/pullynnhah/100days/blob/master/days051-060/day057/project)
+### `day057`: [Blog](https://github.com/pullynnhah/100days/blob/master/days051-060/day057/capstone)
 ### `day058`: [Tindog](https://github.com/pullynnhah/100days/blob/master/days051-060/day058/project)
-### `day059`: [Incomplete Advanced Blog](https://github.com/pullynnhah/100days/blob/master/days051-060/day059/project)
+### `day059`: [Incomplete Advanced Blog](https://github.com/pullynnhah/100days/blob/master/days051-060/day059/capstone)
 ### `day060`: [Advanced Blog](https://github.com/pullynnhah/100days/blob/master/days051-060/day060/project)
 ___
 
 ## days061-070
 ### `day061`: [Secret Site](https://github.com/pullynnhah/100days/blob/master/days061-070/day061/project)
 ### `day062`: [Coffee & Wifi](https://github.com/pullynnhah/100days/blob/master/days061-070/day062/project)
-### `day063`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day063/project)
+### `day063`: [Library](https://github.com/pullynnhah/100days/blob/master/days061-070/day063/project)
 ### `day064`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day064/project)
 ### `day065`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day065/project)
 ### `day066`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day066/project)
