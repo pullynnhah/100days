@@ -74,7 +74,7 @@ def delete():
         cur = con.cursor()
         cur.execute("DELETE FROM books WHERE id = ?", (book_id,))
         con.commit()
-    return redirect(url_for('home'))
+    redirect(url_for('home'))
 
 
 if __name__ == "__main__":

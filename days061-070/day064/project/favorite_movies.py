@@ -1,3 +1,5 @@
+import os
+
 import requests
 from flask import Flask, render_template, redirect, url_for, request
 from flask_bootstrap import Bootstrap
@@ -50,9 +52,27 @@ class RateMovieForm(FlaskForm):
     submit = SubmitField("Done")
 
 
+class MovieForm(FlaskForm):
+    title = StringField("Movie Title", validators=[DataRequired()])
+    submit = SubmitField("Add Movie")
+
+
+def get_movies(title):
+    params = {
+        'api_key': os.getenv('TMDB_KEY'),
+        'query': title
+    }
+    response = requests.get('https://api.themoviedb.org/3/search/movie', params=params).json()
+    return response['results']
+
+
 @app.route("/")
 def home():
-    return render_template("index.html", movies=Movie.query.all())
+    movies = Movie.query.order_by(Movie.rating).all()
+    for i in range(len(movies)):
+        movies[i].ranking = len(movies) - i
+    db.session.commit()
+    return render_template("index.html", movies=movies)
 
 
 @app.route('/update', methods=['GET', 'POST'])
@@ -72,6 +92,29 @@ def delete():
     Movie.query.filter_by(id=request.args.get('id')).delete()
     db.session.commit()
     return redirect(url_for('home'))
+
+
+@app.route('/add', methods=['GET', 'POST'])
+def add():
+    form = MovieForm()
+    if form.validate_on_submit():
+        movies = get_movies(form.title.data)
+        return render_template('select.html', movies=movies)
+    return render_template('add.html', form=form)
+
+
+@app.route('/find')
+def find():
+    movie_id = request.args.get("id")
+    if movie_id is None:
+        return '<h1>No movies found!</h1>'
+    response = requests.get(f'https://api.themoviedb.org/3/movie/{movie_id}',
+                            params={'api_key': os.getenv('TMDB_KEY')}).json()
+    new_movie = Movie(title=response['title'], year=response['release_date'][-4:], description=response['overview'],
+                      img_url=f"https://image.tmdb.org/t/p/original{response['poster_path']}")
+    db.session.add(new_movie)
+    db.session.commit()
+    return redirect(url_for('update', id=new_movie.id))
 
 
 if __name__ == '__main__':

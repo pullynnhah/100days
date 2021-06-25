@@ -86,7 +86,7 @@ ___
 ### `day061`: [Secret Site](https://github.com/pullynnhah/100days/blob/master/days061-070/day061/project)
 ### `day062`: [Coffee & Wifi](https://github.com/pullynnhah/100days/blob/master/days061-070/day062/project)
 ### `day063`: [Library](https://github.com/pullynnhah/100days/blob/master/days061-070/day063/project)
-### `day064`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day064/project)
+### `day064`: [Top 10 Movies](https://github.com/pullynnhah/100days/blob/master/days061-070/day064/project)
 ### `day065`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day065/project)
 ### `day066`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day066/project)
 ### `day067`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day067/project)
