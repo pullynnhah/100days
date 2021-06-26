@@ -12,6 +12,5 @@ twilio
 future~=0.18.2
 Flask~=2.0.1
 flask-wtf
-
 WTForms~=2.3.3
-
+Werkzeug~=2.0.1

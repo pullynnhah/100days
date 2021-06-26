@@ -87,10 +87,10 @@ ___
 ### `day062`: [Coffee & Wifi](https://github.com/pullynnhah/100days/blob/master/days061-070/day062/project)
 ### `day063`: [Library](https://github.com/pullynnhah/100days/blob/master/days061-070/day063/project)
 ### `day064`: [Top 10 Movies](https://github.com/pullynnhah/100days/blob/master/days061-070/day064/project)
-### `day065`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day065/project)
-### `day066`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day066/project)
-### `day067`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day067/project)
-### `day068`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day068/project)
+### `day065`: No Project Today
+### `day066`: [Cafes & Wifi](https://github.com/pullynnhah/100days/blob/master/days061-070/day066/project)
+### `day067`: [Editable Blog](https://github.com/pullynnhah/100days/blob/master/days061-070/day067/capstone)
+### `day068`: [Flask Cheat Sheet](https://github.com/pullynnhah/100days/blob/master/days061-070/day068/project)
 ### `day069`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day069/project)
 ### `day070`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day070/project)
 ___
