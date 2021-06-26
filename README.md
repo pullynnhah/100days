@@ -92,7 +92,7 @@ ___
 ### `day067`: [Editable Blog](https://github.com/pullynnhah/100days/blob/master/days061-070/day067/capstone)
 ### `day068`: [Flask Cheat Sheet](https://github.com/pullynnhah/100days/blob/master/days061-070/day068/project)
 ### `day069`: [Final Blog](https://github.com/pullynnhah/100days/blob/master/days061-070/day069/capstone)
-### `day070`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day070/project)
+### `day070`: No Project Today
 ___
 
 ## days071-080
