@@ -91,7 +91,7 @@ ___
 ### `day066`: [Cafes & Wifi](https://github.com/pullynnhah/100days/blob/master/days061-070/day066/project)
 ### `day067`: [Editable Blog](https://github.com/pullynnhah/100days/blob/master/days061-070/day067/capstone)
 ### `day068`: [Flask Cheat Sheet](https://github.com/pullynnhah/100days/blob/master/days061-070/day068/project)
-### `day069`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day069/project)
+### `day069`: [Final Blog](https://github.com/pullynnhah/100days/blob/master/days061-070/day069/capstone)
 ### `day070`: [💻](https://github.com/pullynnhah/100days/blob/master/days061-070/day070/project)
 ___
 
