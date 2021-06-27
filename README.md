@@ -102,8 +102,10 @@ ___
 - Is not exactly a project.
 ### `day073`: [Analyse LEGO Dataset](https://github.com/pullynnhah/100days/blob/master/days071-080/day073/project)
 - Is not exactly a project.
-### `day074`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day074/project)
-### `day075`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day075/project)
+### `day074`: [Google Trends and Data Visualisation](https://github.com/pullynnhah/100days/blob/master/days071-080/day074/project)
+- Is not exactly a project.
+### `day075`: [Google Play Store App Analytics](https://github.com/pullynnhah/100days/blob/master/days071-080/day075/project)
+- Is not exactly a project.
 ### `day076`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day076/project)
 ### `day077`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day077/project)
 ### `day078`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day078/project)
