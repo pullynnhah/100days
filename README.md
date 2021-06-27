@@ -96,9 +96,12 @@ ___
 ___
 
 ## days071-080
-### `day071`: No Project Today
-### `day072`: No Project Today
-### `day073`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day073/project)
+### `day071`: [College Major × Your Salary](https://github.com/pullynnhah/100days/blob/master/days071-080/day071/project)
+- Is not exactly a project.
+### `day072`: [Programming Languages Popularity](https://github.com/pullynnhah/100days/blob/master/days071-080/day072/project)
+- Is not exactly a project.
+### `day073`: [Analyse LEGO Dataset](https://github.com/pullynnhah/100days/blob/master/days071-080/day073/project)
+- Is not exactly a project.
 ### `day074`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day074/project)
 ### `day075`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day075/project)
 ### `day076`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day076/project)
