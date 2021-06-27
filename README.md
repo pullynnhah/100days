@@ -97,7 +97,7 @@ ___
 
 ## days071-080
 ### `day071`: No Project Today
-### `day072`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day072/project)
+### `day072`: No Project Today
 ### `day073`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day073/project)
 ### `day074`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day074/project)
 ### `day075`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day075/project)
