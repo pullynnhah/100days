@@ -16,3 +16,5 @@ WTForms~=2.3.3
 Werkzeug~=2.0.1
 
 SQLAlchemy~=1.4.19
+jupyter~=1.0.0
+
