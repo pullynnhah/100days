@@ -1,4 +1,6 @@
 # 100 Days of Code
+
+🚨 The `requirements.txt` contains all the packages I have on my computer, so some packages aren't used at all in the course.
 ___
 
 ## days001-010
@@ -108,7 +110,8 @@ ___
 - Is not exactly a project.
 ### `day076`: [Computation with NumPy and N-Dimensional Arrays](https://github.com/pullynnhah/100days/blob/master/days071-080/day076/project)
 - Is not exactly a project.
-### `day077`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day077/project)
+### `day077`: [Seaborn and Linear Regression.ipynb](https://github.com/pullynnhah/100days/blob/master/days071-080/day077/project)
+- Is not exactly a project.
 ### `day078`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day078/project)
 ### `day079`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day079/project)
 ### `day080`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day080/project)
@@ -138,3 +141,4 @@ ___
 ### `day098`: [💻](https://github.com/pullynnhah/100days/blob/master/days091-100/day098/project)
 ### `day099`: [💻](https://github.com/pullynnhah/100days/blob/master/days091-100/day099/project)
 ### `day100`: [💻](https://github.com/pullynnhah/100days/blob/master/days091-100/day100/project)
+---
