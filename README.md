@@ -110,10 +110,12 @@ ___
 - Is not exactly a project.
 ### `day076`: [Computation with NumPy and N-Dimensional Arrays](https://github.com/pullynnhah/100days/blob/master/days071-080/day076/project)
 - Is not exactly a project.
-### `day077`: [Seaborn and Linear Regression.ipynb](https://github.com/pullynnhah/100days/blob/master/days071-080/day077/project)
+### `day077`: [Seaborn and Linear Regression](https://github.com/pullynnhah/100days/blob/master/days071-080/day077/project)
 - Is not exactly a project.
-### `day078`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day078/project)
-### `day079`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day079/project)
+### `day078`: [Nobel Prize Analysis](https://github.com/pullynnhah/100days/blob/master/days071-080/day078/project)
+- Is not exactly a project.
+### `day079`: [Handwashing Discovery](https://github.com/pullynnhah/100days/blob/master/days071-080/day079/project)
+- Is not exactly a project.
 ### `day080`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day080/project)
 ___
 
