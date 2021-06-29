@@ -97,26 +97,18 @@ ___
 ### `day070`: No Project Today
 ___
 
-## days071-080
+## days071-08
+- All data science notebooks
 ### `day071`: [College Major × Your Salary](https://github.com/pullynnhah/100days/blob/master/days071-080/day071/project)
-- Is not exactly a project.
 ### `day072`: [Programming Languages Popularity](https://github.com/pullynnhah/100days/blob/master/days071-080/day072/project)
-- Is not exactly a project.
 ### `day073`: [Analyse LEGO Dataset](https://github.com/pullynnhah/100days/blob/master/days071-080/day073/project)
-- Is not exactly a project.
 ### `day074`: [Google Trends and Data Visualisation](https://github.com/pullynnhah/100days/blob/master/days071-080/day074/project)
-- Is not exactly a project.
 ### `day075`: [Google Play Store App Analytics](https://github.com/pullynnhah/100days/blob/master/days071-080/day075/project)
-- Is not exactly a project.
 ### `day076`: [Computation with NumPy and N-Dimensional Arrays](https://github.com/pullynnhah/100days/blob/master/days071-080/day076/project)
-- Is not exactly a project.
 ### `day077`: [Seaborn and Linear Regression](https://github.com/pullynnhah/100days/blob/master/days071-080/day077/project)
-- Is not exactly a project.
 ### `day078`: [Nobel Prize Analysis](https://github.com/pullynnhah/100days/blob/master/days071-080/day078/project)
-- Is not exactly a project.
 ### `day079`: [Handwashing Discovery](https://github.com/pullynnhah/100days/blob/master/days071-080/day079/project)
-- Is not exactly a project.
-### `day080`: [💻](https://github.com/pullynnhah/100days/blob/master/days071-080/day080/project)
+### `day080`: [Multivariable Regression and Valuation Model](https://github.com/pullynnhah/100days/blob/master/days071-080/day080/capstone)
 ___
 
 ## days081-090
