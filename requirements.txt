@@ -173,3 +173,5 @@ WTForms==2.3.3
 xdg==5
 xkit==0.0.0
 yapf==0.31.0
+
+morse3==2.9
