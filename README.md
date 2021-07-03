@@ -113,8 +113,9 @@ ___
 
 ## days081-090
 ### `day081`: [Morse Code Generator](https://github.com/pullynnhah/100days/blob/master/days081-090/day081/project)
-### `day082`: [💻](https://github.com/pullynnhah/100days/blob/master/days081-090/day082/project)
-### `day083`: [💻](https://github.com/pullynnhah/100days/blob/master/days081-090/day083/project)
+### `day082`: [Portfolio Website](https://github.com/pullynnhah/100days/blob/master/days081-090/day082/project)
+#### [Paula Portfolio](https://paula-portfolio.herokuapp.com/)
+### `day083`: [Tic Tac Toe](https://github.com/pullynnhah/100days/blob/master/days081-090/day083/project)
 ### `day084`: [💻](https://github.com/pullynnhah/100days/blob/master/days081-090/day084/project)
 ### `day085`: [💻](https://github.com/pullynnhah/100days/blob/master/days081-090/day085/project)
 ### `day086`: [💻](https://github.com/pullynnhah/100days/blob/master/days081-090/day086/project)
