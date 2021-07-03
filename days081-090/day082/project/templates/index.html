@@ -38,16 +38,16 @@
             <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
-                        <a href="#home" class="nav-link">Home</a>
+                        <a href="#home" class="menu-text nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#bio" class="nav-link">Bio</a>
+                        <a href="#bio" class="menu-text nav-link">Bio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#works" class="nav-link">Works</a>
+                        <a href="#works" class="menu-text nav-link">Works</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <a href="#contact" class="menu-text nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -64,16 +64,17 @@
 </section>
 <section id="bio">
     <div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-4">
-            <img class="mouse" src="{{ url_for('static', filename='images/mouse.png') }}" alt="mouse">
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="mouse" src="{{ url_for('static', filename='images/mouse.png') }}" alt="mouse">
+            </div>
+            <div class="bio-text col-lg-5"><p>
+                Hello, I’m 25 years old and study to be a computer engineer. I love helping other learn programming. My
+                favorite programming language is Python, for the simplicity and cleanness when writing code. My main
+                goal at
+                the moment is become a Python Developer and find a JOB!
+            </p></div>
         </div>
-        <div class="bio-text col-lg-5"><p>
-            Hello, I’m 25 years old and study to be a computer engineer. I love helping other learn programming. My
-            favorite programming language is Python, for the simplicity and cleanness when writing code. My main goal at
-            the moment is become a Python Developer and find a JOB!
-        </p></div>
-    </div>
     </div>
 </section>
 <section id="works">
@@ -85,11 +86,13 @@
             <div class="col-lg-12">
                 <a class="icon" href="https://www.linkedin.com/in/pullynnhah"><i class="fab fa-linkedin"></i></a>
                 <a class="icon" href="https://github.com/pullynnhah"><i class="fab fa-github-square"></i></a>
-                <a class="icon" href="https://www.facebook.com/profile.php?id=100069879690571"><i class="fab fa-facebook-square"></i></a>
+                <a class="icon" href="https://www.facebook.com/profile.php?id=100069879690571"><i
+                        class="fab fa-facebook-square"></i></a>
                 <a class="icon" href="https://twitter.com/ppaulaabr"><i class="fab fa-twitter-square"></i></a>
             </div>
             <div class="address col-lg-6"><p><i class="far fa-envelope-open"></i> Itabira, MG - Brazil</p></div>
             <div class="phone col-lg-6"><p><i class="fas fa-phone-alt"></i> (51) 98654-3201</p></div>
+        </div>
     </div>
 </section>
 <body>
