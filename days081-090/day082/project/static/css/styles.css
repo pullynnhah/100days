@@ -1,0 +1,106 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+/*Home Section*/
+#home {
+    background-color: #B590CA;
+}
+.pr-navbar {
+    background-color: #B590CA;
+}
+
+.pr-brand {
+    font-family: 'Peralta', cursive;
+    font-size: 3rem;
+}
+
+.name {
+    font-family: 'Rochester', cursive;
+    text-align: center;
+    line-height: 1;
+}
+
+.h3-name {
+    font-size: 3rem;
+}
+
+.h2-name {
+    font-size: 6rem;
+}
+
+.h1-name {
+    font-size: 9rem;
+}
+
+/*Bio Section*/
+#bio {
+    background-color: #A8D3DA;
+    padding-top: 7%;
+
+}
+
+
+.mouse {
+    margin:5% 0 0 30%;
+    width: 350px;
+}
+
+.bio-text {
+    margin: 5% 0 0 15% ;
+    font-size: 1.4rem;
+}
+
+/*Works Section*/
+#works {
+    background-color: #F5CAB3;
+    padding: 15%;
+}
+.coming-soon {
+    font-family: 'Rochester', cursive;
+    text-align: center;
+    font-size: 10rem;
+}
+
+#contact {
+    background-color: #F3ECB8;
+}
+
+/*Contact Section*/
+#contact {
+    color: grey;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.icon {
+    padding: 0 1% 15%;
+    font-size: 3rem;
+    color: grey;
+}
+
+.address, .phone {
+    text-align: center;
+
+}
+
+.address {
+    padding-left: 25%;
+}
+
+.phone {
+    padding-right: 28%;
+}
+
+@media (max-width: 1028px) {
+    .mouse, .bio-text {
+        margin: 0 0 10%;
+    }
+    .address, .phone {
+        padding: 0;
+    }
+}

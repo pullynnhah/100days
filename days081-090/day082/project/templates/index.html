@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paula's Portfolio</title>
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Montserrat:wght@300;500;900&family=Rochester&family=Peralta&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script
+            src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+            data-auto-a11y="true"
+    ></script>
+
+    <!-- Bootstrap Link/Script -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+</head>
+<section id="home">
+    <div class="container-fluid">
+        <nav class="pr-navbar navbar navbar-expand-lg navbar-dark">
+            <a href="" class="pr-brand navbar-brand">PR</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#bio" class="nav-link">Bio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#works" class="nav-link">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="name">
+
+            <h3 class="h3-name">I'm</h3>
+            <h2 class="h2-name">Paula</h2>
+            <h1 class="h1-name">Rodrigues</h1>
+
+        </div>
+    </div>
+
+</section>
+<section id="bio">
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="mouse" src="{{ url_for('static', filename='images/mouse.png') }}" alt="mouse">
+        </div>
+        <div class="bio-text col-lg-5"><p>
+            Hello, I’m 25 years old and study to be a computer engineer. I love helping other learn programming. My
+            favorite programming language is Python, for the simplicity and cleanness when writing code. My main goal at
+            the moment is become a Python Developer and find a JOB!
+        </p></div>
+    </div>
+    </div>
+</section>
+<section id="works">
+    <h1 class="coming-soon">Coming<br>Soon!</h1>
+</section>
+<section id="contact">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <a class="icon" href="https://www.linkedin.com/in/pullynnhah"><i class="fab fa-linkedin"></i></a>
+                <a class="icon" href="https://github.com/pullynnhah"><i class="fab fa-github-square"></i></a>
+                <a class="icon" href="https://www.facebook.com/profile.php?id=100069879690571"><i class="fab fa-facebook-square"></i></a>
+                <a class="icon" href="https://twitter.com/ppaulaabr"><i class="fab fa-twitter-square"></i></a>
+            </div>
+            <div class="address col-lg-6"><p><i class="far fa-envelope-open"></i> Itabira, MG - Brazil</p></div>
+            <div class="phone col-lg-6"><p><i class="fas fa-phone-alt"></i> (51) 98654-3201</p></div>
+    </div>
+</section>
+<body>
+
+</body>
+</html>
