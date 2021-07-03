@@ -4,13 +4,14 @@ from tkinter import *
 from tkinter import messagebox
 from PIL import Image, ImageDraw, ImageFont
 
+# ------------------------------------------------------ CONSTANTS --------------------------------------------------- #
 MARGIN = 15
 FONT_UI = 'Emilio 20'
 DEEP_PINK = (255, 20, 147)
 FONT_WATERMARK = ImageFont.truetype('fonts/Sacramento-Regular.ttf', 40)
 
 
-# ---------------------------------------------------- UI FUNCTIONS -------------------------------------------------- #
+# ------------------------------------------------------ FUNCTIONS --------------------------------------------------- #
 def check_images(images):
     files = os.listdir('images')
     for image in images:
