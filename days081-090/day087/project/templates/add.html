@@ -1,0 +1,18 @@
+{% include "header.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+        <h1>Add Cafe</h1>
+        {% if error %}
+            <p class="error">Sorry, that's not allowed. Make sure you have the correct api_key.</p>
+        {% endif %}
+    {{ wtf.quick_form(form, novalidate=True) }}
+    </div>
+      <div class="col-lg-6">
+          <img class="hot-coffee" src="{{ url_for('static', filename='images/hot_coffee.jpg') }}" alt="hot-coffee">
+      </div>
+  </div>
+</div>
+</div>
+{% include "footer.html" %}

@@ -1,0 +1,66 @@
+body {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h1, h3 {
+    font-family: Rochester, cursive;
+}
+
+.title {
+    font-size: 8rem;
+}
+.cafe-title {
+    font-size: 10rem;
+}
+
+.footer-text {
+    font-size: 1.5rem;
+}
+.header {
+    background-color: #402218;
+    padding: 5% 10% 10%;
+}
+
+.footer {
+    background-color: #865439;
+    padding: 2% 10%;
+}
+
+.coffee-image {
+    border-radius: 100%;
+    width: 35%;
+}
+
+.hot-coffee {
+    border-radius: 50%;
+    width: 100%;
+    padding: 30% 5%;
+}
+
+#submit {
+    color: white;
+    background-color: #865439;
+    margin-top: 5%;
+}
+
+.form-group {
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.error {
+    color: #CC0000;
+}
+
+.cafe-img {
+    width: 600px;
+    border-radius: 45%;
+}
+
+.search-title {
+    font-size: 4rem;
+    padding-bottom: 5%;
+}
+

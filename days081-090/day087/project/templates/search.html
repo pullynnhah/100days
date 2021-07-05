@@ -1,0 +1,18 @@
+{% include "header.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% if is_search %}
+    <h1>Search Cafe</h1>
+    {{ wtf.quick_form(form, novalidate=True) }}
+{% else %}
+    {% if cafes.error %}
+        <h1 class="search-title">{{ cafes.error["Not Found"] }}</h1>
+    {% else %}
+        <h1 class="search-title">Cafe's Found</h1>
+        {% for cafe in cafes.cafes %}
+            <h6><a href="{{ url_for('cafe_display', cafe_id=cafe.id) }}">{{ cafe.name }}</a></h6>
+        {% endfor %}
+    {% endif %}
+{% endif %}
+</div>
+{% include "footer.html" %}

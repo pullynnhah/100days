@@ -1,0 +1,35 @@
+{% include "header.html" %}
+<h1>{{ cafe.name }}</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <table class="table table-warning">
+                <thead>
+                <tr>
+                    <th>Location</th>
+                    <th>Seats</th>
+                    <th>Toilet</th>
+                    <th>Wifi</th>
+                    <th>Sockets</th>
+                    <th>Calls</th>
+                    <th>Coffee Price</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><a href="{{ cafe.map_url }}">{{ cafe.location }}</a></td>
+                    <td>{{ cafe.seats }}</td>
+                    <td>{{ cafe.has_toilet }}</td>
+                    <td>{{ cafe.has_wifi }}</td>
+                    <td>{{ cafe.has_sockets }}</td>
+                    <td>{{ cafe.can_take_calls }}</td>
+                    <td>{{ cafe.coffee_price }}</td>
+                </tr>
+                </tbody>
+            </table>
+            <img class="cafe-img" src="{{ cafe.img_url }}" alt="image-url">
+        </div>
+    </div>
+</div>
+</div>
+{% include "footer.html" %}

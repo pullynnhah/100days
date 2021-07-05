@@ -1,0 +1,33 @@
+{% include "header.html" %}
+<h1>List of all Cafes</h1>
+<table class="table table-warning">
+    <thead class="table-head">
+    <tr>
+        <th>Name</th>
+        <th>Location</th>
+        <th># Seats</th>
+        <th>Toilet</th>
+        <th>Wifi</th>
+        <th>Sockets</th>
+        <th>Calls</th>
+        <th>Price</th>
+    </tr>
+    </thead>
+    <tbody class="table-body">
+        {% for cafe in cafes %}
+        <tr>
+            <td><a href="{{ url_for('cafe_display', cafe_id=cafe.id) }}">{{ cafe.name }}</a></td>
+            <td><a href="{{ cafe.map_url }}">{{ cafe.location }}</a></td>
+            <td>{{ cafe.seats }}</td>
+            <td>{{ cafe.has_toilet }}</td>
+            <td>{{ cafe.has_wifi }}</td>
+            <td>{{ cafe.has_sockets }}</td>
+            <td>{{ cafe.can_take_calls }}</td>
+            <td>{{ cafe.coffee_price }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+
+</table>
+</div>
+{% include "footer.html" %}
