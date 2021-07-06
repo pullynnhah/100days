@@ -1,0 +1,35 @@
+{% include "header.html" %}
+{% if todo_dict == {} %}
+    <h1 class="todos-empty">No Todos Available</h1>
+{% else %}
+    <h1 class="todos-title">Todos</h1>
+    <div class="card-row row">
+        {% for todo, tasks in todo_dict.items() %}
+            <div class="col-lg-6">
+            <div class="card">
+                <div class="todo-card card-body">
+                    <h1 class="todo-title">{{ todo[0] }}. {{ todo[1] }}</h1>
+                    {% if tasks == [] %}
+                        <h1 class="todo-empty">No Tasks Available</h1>
+                    {% else %}
+                        {% for task in tasks %}
+                            {% if not task.done %}
+                                <h3><a class="btn btn-md btn-checkbox"
+                                       href="{{ url_for('done', kind='task', an_id=task.id) }}" role="button"><i
+                                        class="far fa-square"></i></a>{{ task.description }}</h3>
+                            {% else %}
+                                <h3><a class="btn btn-md btn-checkbox"
+                                       href="{{ url_for('done', kind='task', an_id=task.id) }}" role="button"><i
+                                        class="far fa-check-square"></i></a>{{ task.description }}</h3>
+
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% endif %}
+</div>
+{% include "footer.html" %}

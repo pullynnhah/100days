@@ -1,0 +1,24 @@
+{% include "header.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+<div class="row">
+    <div class="col-lg-6">
+        <h1 class="form-title">New Todo</h1>
+    <div class="flash-msg">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <p>{{ message }}</p>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </div>
+        {{ wtf.quick_form(form, novalidate=True) }}
+    </div>
+    <div class="col-lg-6">
+        <img class="todo-image" src="{{ url_for('static', filename='images/todo.png') }}" alt="tasks">
+    </div>
+</div>
+</div>
+{% include "footer.html" %}
+

@@ -1,0 +1,9 @@
+{% include "header.html" %}
+{% if logged_in %}
+    <h2 class="home-greeting">Welcome to</h2>
+{% else %}
+    <h2 class="home-greeting">Join</h2>
+{% endif %}
+<h1 class="home-title">My Todos</h1>
+</div>
+{% include "footer.html" %}
