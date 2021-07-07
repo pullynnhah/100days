@@ -5,7 +5,7 @@ from sqlalchemy.orm import relationship
 from flask_login import UserMixin, LoginManager, current_user, login_user, login_required, logout_user
 from flask_bootstrap import Bootstrap
 
-from forms import RegisterForm, LoginForm, TodoForm, TaskForm
+from forms import RegisterForm, LoginForm, TodoForm, TaskForm, TodoRemovalForm, TaskRemovalForm
 
 app = Flask(__name__)
 Bootstrap(app)
@@ -105,10 +105,10 @@ def logout():
     return redirect(url_for('home'))
 
 
-@app.route('/create')
+@app.route('/edit')
 @login_required
-def create():
-    return render_template('create.html', logged_in=current_user.is_authenticated)
+def edit():
+    return render_template('edit.html', logged_in=current_user.is_authenticated)
 
 
 @app.route('/create/todos', methods=['GET', 'POST'])
@@ -118,7 +118,7 @@ def create_todos():
     if form.validate_on_submit():
         name = request.form.get('name')
         if Todo.query.filter_by(user_id=current_user.id, name=name).first():
-            flash("TODO already exists, try another one!")
+            flash("Todo already exists, try another one!")
             return redirect(url_for('create_todos'))
         todo = Todo(
             name=name,
@@ -138,8 +138,8 @@ def create_tasks():
     if form.validate_on_submit():
         todo_id = request.form.get('todo_id')
         if not Todo.query.get(todo_id):
-            flash("TODO doesn't exist, please try with an existing TODO!")
-            redirect(url_for('create_tasks'))
+            flash("Todo doesn't exist, please try with an existing Todo!")
+            return redirect(url_for('create_tasks'))
         for task_desc in request.form.get('desc').split(';'):
             task = Task(
                 description=task_desc,
@@ -151,11 +151,47 @@ def create_tasks():
     return render_template('create_tasks.html', form=form, logged_in=current_user.is_authenticated)
 
 
+@app.route('/delete/todos', methods=['GET', 'POST'])
+@login_required
+def delete_todos():
+    form = TodoRemovalForm()
+    if form.validate_on_submit():
+        name = request.form.get('name')
+        todo = Todo.query.filter_by(user_id=current_user.id, name=name).first()
+        if not todo:
+            flash("Todo doesn't exists, please try with an existing one!")
+            return redirect(url_for('create_todos'))
+        db.session.delete(todo)
+        db.session.commit()
+        return redirect(url_for('todos'))
+
+    return render_template('delete_todos.html', form=form, logged_in=current_user.is_authenticated)
+
+
+@app.route('/delete/tasks', methods=['GET', 'POST'])
+@login_required
+def delete_tasks():
+    form = TaskRemovalForm()
+    if form.validate_on_submit():
+        todo_id = request.form.get('todo_id')
+        if not Todo.query.get(todo_id):
+            flash("Todo doesn't exist, please try with an existing one!")
+            return redirect(url_for('delete_tasks'))
+        for task_desc in request.form.get('desc').split(';'):
+            task = Task.query.filter_by(todo_id=todo_id, description=task_desc).first()
+            if task is None:
+                flash("Task doesn't exist, please try with an existing one!")
+                return redirect(url_for('delete_tasks'))
+            db.session.delete(task)
+            db.session.commit()
+        return redirect(url_for('todos'))
+    return render_template('delete_tasks.html', form=form, logged_in=current_user.is_authenticated)
+
+
 @app.route('/todos')
 def todos():
     todo_dict = {}
     todos_list = Todo.query.filter_by(user_id=current_user.id).all()
-    print(todos_list)
     if not todos_list:
         return render_template('todos.html', logged_in=current_user.is_authenticated, todo_dict=todo_dict)
     for todo in todos_list:

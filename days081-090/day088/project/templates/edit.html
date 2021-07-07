@@ -1,0 +1,28 @@
+{% include "header.html" %}
+<div class="row">
+    <div class="col-lg-6">
+        <a class="btn btn-my-todos btn-lg" href="{{ url_for('create_todos') }}" role="button">
+    <i class="fas fa-clipboard-list"></i> Create Todos
+</a>
+    </div>
+    <div class="col-lg-6">
+        <a class="btn btn-my-todos btn-lg" href="{{ url_for('create_tasks') }}" role="button">
+    <i class="fas fa-check-square"></i> Create Tasks
+</a>
+    </div>
+    <div class="col-lg-6">
+        <a class="btn btn-my-todos btn-lg" href="{{ url_for('delete_todos') }}" role="button">
+    <i class="fas fa-clipboard-list"></i> Delete Todos
+</a>
+    </div>
+    <div class="col-lg-6">
+        <a class="btn btn-my-todos btn-lg" href="{{ url_for('delete_tasks') }}" role="button">
+    <i class="fas fa-check-square"></i> Delete Tasks
+</a>
+    </div>
+</div>
+
+
+
+</div>
+{% include "footer.html" %}

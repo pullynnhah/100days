@@ -1,5 +1,5 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField, PasswordField, DateField, TextAreaField
+from wtforms import StringField, SubmitField, PasswordField, DateField, TextAreaField, IntegerField
 from wtforms.validators import DataRequired, Length
 
 
@@ -17,11 +17,23 @@ class LoginForm(FlaskForm):
 
 
 class TodoForm(FlaskForm):
-    name = StringField('TODO name', validators=[DataRequired()])
-    submit = SubmitField('Create TODO')
+    name = StringField('Todo name', validators=[DataRequired()])
+    submit = SubmitField('Create Todo')
+
+
+class TodoRemovalForm(FlaskForm):
+    id = IntegerField('Todo id', validators=[DataRequired()])
+    name = StringField('Todo name', validators=[DataRequired()])
+    submit = SubmitField('Delete Todo')
 
 
 class TaskForm(FlaskForm):
-    todo_id = StringField('TODO id', validators=[DataRequired()])
+    todo_id = StringField('Todo id', validators=[DataRequired()])
     desc = TextAreaField('Tasks(separated by ";")', validators=[DataRequired()])
     submit = SubmitField('Create Task')
+
+
+class TaskRemovalForm(FlaskForm):
+    todo_id = IntegerField('Todo id', validators=[DataRequired()])
+    desc = StringField('Tasks (separated by ";")', validators=[DataRequired()])
+    submit = SubmitField('Delete Task')

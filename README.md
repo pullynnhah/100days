@@ -120,7 +120,7 @@ ___
 ### `day085`: [Type Testing](https://github.com/pullynnhah/100days/blob/master/days081-090/day085/project)
 ### `day086`: [Breakout](https://github.com/pullynnhah/100days/blob/master/days081-090/day086/project)
 ### `day087`: [Cafe & Wifi Website](https://github.com/pullynnhah/100days/blob/master/days081-090/day087/project)
-### `day088`: [💻](https://github.com/pullynnhah/100days/blob/master/days081-090/day088/project)
+### `day088`: [My Todos](https://github.com/pullynnhah/100days/blob/master/days081-090/day088/project)
 ### `day089`: [💻](https://github.com/pullynnhah/100days/blob/master/days081-090/day089/project)
 ### `day090`: [💻](https://github.com/pullynnhah/100days/blob/master/days081-090/day090/project)
 ___
