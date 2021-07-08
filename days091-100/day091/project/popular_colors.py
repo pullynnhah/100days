@@ -1,3 +1,4 @@
+import atexit
 import os
 import pyperclip
 
@@ -25,8 +26,6 @@ class ImageForm(FlaskForm):
 def home():
     form = ImageForm()
     if form.validate_on_submit():
-        path = 'static/images/temp'
-        os.remove(f"{path}/{os.listdir(f'{path}')[0]}")
         file = request.files['photo']
         filename = secure_filename(form.photo.data.filename)
         file.save(f'static/images/temp/{filename}')
@@ -40,10 +39,20 @@ def home():
     hex_colors = [f'#{r:02x}{g:02x}{b:02x}' for r, g, b in colors_rgb]
     return render_template('index.html', image=image, colors=hex_colors, form=form)
 
+
 @app.route('/copy/<hex_code>')
 def copy(hex_code):
     pyperclip.copy(hex_code)
     return redirect(url_for('home'))
 
+
+def delete_temp():
+    path = 'static/images/temp'
+    files = os.listdir(f'{path}')
+    if files:
+        os.remove(f"{path}/{files[0]}")
+
+
 if __name__ == '__main__':
     app.run(debug=True)
+    atexit.register(delete_temp)
